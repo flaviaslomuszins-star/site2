@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garotos Podres</title>
+
+<style>
+
+    .shows {
+    list-style: none;
+    padding: 0;
+}
+
+.shows li {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-left: 4px solid var(--vermelho);
+    font-size: 14px;
+}
+
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --cinza: #cccccc;
+    --cinza-claro: #f5f5f5;
+    --vermelho: #c0392b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--cinza-claro);
+}
+
+
+.cabecalho {
+    background: var(--preto);
+    color: var(--branco);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid var(--vermelho);
+}
+
+.cabecalho img {
+    max-width: 100%;
+}
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.esquerda {
+    width: 250px;
+    background: var(--branco);
+    padding: 15px;
+    border-left: 5px solid var(--vermelho);
+}
+
+.principal {
+    flex: 1;
+    background: var(--cinza);
+    padding: 20px;
+}
+
+.direita {
+    width: 250px;
+    background: var(--branco);
+    padding: 15px;
+}
+
+
+.menu {
+    line-height: 1.8;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--preto);
+    display: block;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: var(--vermelho);
+    color: var(--branco);
+}
+
+
+.album {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.album p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+
+.rodape {
+    background: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border-top: 4px solid var(--vermelho);
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .direita {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="cabecalho">
+    <img src="imagens/garotos podres.jpg" alt="Logo da banda">
+</div>
+
+<div class="container">
+
+    <div class="esquerda">
+        <h3>Menu</h3>
+        <div>menu</div>
+
+        <p>Início</p>
+        <p>A Banda</p>
+        <p>Discografia</p>
+        <p>Músicas</p>
+        <p>Vídeos</p>
+        <p>Turnês</p>
+        <p>Notícias</p>
+        <p>Galeria</p>
+        <p>Loja</p>
+        <p>Contato</p>
+
+       
+        <p><b>Instagram:</b> @garotospodresoficial</p>
+
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+
+    <div class="principal">
+        <h2>Conteúdo Principal</h2>
+
+        <p>
+        No site dedicado à banda, o público pode encontrar diversos conteúdos que ajudam a conhecer melhor sua trajetória.
+        </p>
+
+        <p>
+    No site oficial dos Garotos Podres, você encontra muito mais do que música — aqui é ponto de encontro de quem vive o punk de verdade. Desde sua formação, a banda marcou gerações com letras críticas, diretas e cheias de personalidade, sempre levantando questões sociais e políticas com irreverência e autenticidade.
+
+    Neste espaço, você pode acompanhar a trajetória da banda, conhecer melhor cada fase da discografia e relembrar clássicos que continuam atuais até hoje. Também reunimos notícias, curiosidades, registros de shows e materiais exclusivos para quem acompanha essa história de perto.
+
+    Mais do que fãs, somos parte de uma mesma cena. Então explore o site, aumente o volume e continue fazendo barulho com a gente.
+        </p>
+
+        <p><b>Faça parte:</b> acompanhe notícias, fotos exclusivas e conecte-se com outros fãs.</p>
+
+
+
+       <ul class="shows">
+    <li><B>CRONOGRAMA DE SHOWS</B></li>
+    <li>25/01/2026 — Sesc 24 de Maio (São Paulo/SP)</li>
+    <li>07/02/2026 — Hangar 110 (São Paulo/SP)</li>
+    <li>15/02/2026 — Carna Rock - Estação Cultura (Campinas/SP)</li>
+    <li>28/02/2026 — Curitiba/PR (com Dedo Podre e Capetassauras)</li>
+    <li>13/03/2026 — John Bull (Florianópolis/SC)</li>
+    <li>14/03/2026 — Meteoro Estúdio (Criciúma/SC)</li>
+    <li>15/03/2026 — Opinião (Porto Alegre/RS - com Os Replicantes)</li>
+</ul>
+
+         <img src="imagens/garotos.jpg" alt="Show">
+
+
+    </div>
+
+  
+    <div class="direita">
+        <h3>Álbuns</h3>
+
+        <div class="album">
+            <img src="imagens/gaarotospodres.jpg" alt="Álbum 1">
+            <p>Álbum 1</p>
+        </div>
+
+        <div class="album">
+            <img src="imagens/suburbio.jpg" alt="Álbum 2">
+            <p>Álbum 2</p>
+        </div>
+
+        <div class="album">
+            <img src="imagens/piorqueantess.jpg" alt="Álbum 3">
+            <p>Álbum 3</p>
+        </div>
+
+         <div class="album">
+            <img src="imagens/img.jpg" alt="Álbum 4">
+         </div>
+    </div>
+
+</div>
+
+    <div class="rodape">
+    Instagram: @garotospodresoficial|
+    <a href="https://open.spotify.com/intl-pt/artist/1axNKwnXW10Ncg1dv4dwah" target="_blank">
+  Ver perfil dos Garotos Podres no Spotify
+</a>
+</div>
+
+
+</body>
+</html>
